@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.walkerym.wym_ui_demo.BranchActivity">
+    tools:context="com.example.walkerym.wym_broadcastreceiver_demo.ReceiverSystemBroadcastAvtivity">
 
 </android.support.constraint.ConstraintLayout>
