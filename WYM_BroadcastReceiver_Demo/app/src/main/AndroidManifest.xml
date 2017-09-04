@@ -65,11 +65,14 @@
             android:name=".BroadcastReceiver.LocalBroadcastReceiver"
             android:enabled="true"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="com.example.walkerym.Local_Broadcast" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".Tools.BasicActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginSuccessActivity"></activity>
     </application>
 
 </manifest>

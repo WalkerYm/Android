@@ -63,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
 
 
                         break;
+
+                    case 5:
+                        Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+                        startActivity(loginIntent);
+                        break;
                 }
             }
         });
